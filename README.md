@@ -4,11 +4,11 @@
 
 ---
 
-## 📁 Structure du projet
-- `package.json` : dépendances (`express`)
-- `server.js` : API avec 4 routes
-- `.dockerignore` : exclut `node_modules`, etc.
-- `Dockerfile` : version initiale + version optimisée (Alpine + multi-stage)
+## Structure du projet
+- `node-app/package.json` : dépendances (`express`)
+- `node-app/server.js` : API avec 4 routes
+- `node-app/.dockerignore` : exclut `node_modules`, etc.
+- `node-app/Dockerfile` : version initiale + version optimisée (Alpine + multi-stage)
 
 
 ---
